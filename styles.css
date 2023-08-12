@@ -16,6 +16,7 @@ body {
         #message {
             font-size: 24px;          
             margin-top: 10px;
+            color: #00695C;
             font-style: italic;
         }
 

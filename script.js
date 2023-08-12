@@ -39,15 +39,15 @@ const timeElement = document.getElementById('time');
         function getRewardMessage(minutes) {
             switch (minutes) {
                 case 5:
-                    return 'De toute semence naît une racine !';
+                    return 'De toute semence naît une racine 🍀!';
                 case 7:
-                    return 'On dirait bien que ça pousse !';
+                    return 'On dirait bien que ça pousse 🌱!';
                 case 10:
-                    return 'C’est en plantant une graine qu’on sème le succès !';
+                    return 'C’est en plantant une graine qu’on sème le succès 🪴!';
                 case 15:
-                    return 'Vous gérez la fougère !';
+                    return 'Vous gérez la fougère 🌿!';
                 case 20:
-                    return 'Vous n’en pouvez plus, mais le roseau ne rompt pas face à la tempête !';
+                    return 'Vous n’en pouvez plus, mais le roseau ne rompt pas face à la tempête 🌳!';
             }
         }
 

@@ -31,20 +31,19 @@ img {
 
 button {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #00695C;
     color: #fff;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
-    margin: 20px;
-    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px;
+    transition: transform 0.3s, background-color 0.3s; /* Ajoutez une transition pour une animation fluide */
 }
 
 button:hover {
     background-color: #005148;
-    transform: scale(1.1); /* Ajustez la valeur pour contrôler le niveau de grossissement */
-    transition: transform 0.3s, background-color 0.3s; /* Ajoutez une transition pour une animation fluide */
+    transform: scale(1.05); /* Ajustez la valeur pour contrôler le niveau de grossissement */
 }
 
 

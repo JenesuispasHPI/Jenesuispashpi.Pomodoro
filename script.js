@@ -58,5 +58,5 @@ const timeElement = document.getElementById('time');
             seconds = 0;
             updateTimer();
             messageElement.textContent = '';
-            startBtn.disabled = true;
+            startBtn.disabled = false;
         });

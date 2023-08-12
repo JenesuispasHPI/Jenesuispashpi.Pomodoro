@@ -10,7 +10,7 @@
             return `${mins}:${secs}`;
         }
 
-        startButton.addEventListener("click", function () {
+        startBtn.addEventListener("click", function () {
             clearInterval(interval);
             time = 0;
             interval = setInterval(function () {
@@ -31,7 +31,7 @@
             }, 1000);
         });
 
-        repeatButton.addEventListener("click", function () {
+        repeatBtn.addEventListener("click", function () {
             clearInterval(interval);
             time = 0;
             timer.textContent = formatTime(time);

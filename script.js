@@ -1,4 +1,4 @@
-const timer = document.getElementById("timer");
+ const timer = document.getElementById("timer");
         const startBtn = document.getElementById("startBtn");
         const repeatBtn = document.getElementById("repeatBtn");
         let time = 0;
@@ -10,9 +10,17 @@ const timer = document.getElementById("timer");
             return `${mins}:${secs}`;
         }
 
+        repeatBtn.addEventListener("click", function () {
+            clearInterval(interval);
+            time = 0;
+            timer.textContent = formatTime(time);
+        });
+
         startBtn.addEventListener("click", function () {
             clearInterval(interval);
             time = 0;
+            timer.textContent = formatTime(time);
+
             interval = setInterval(function () {
                 time++;
                 timer.textContent = formatTime(time);
@@ -29,10 +37,4 @@ const timer = document.getElementById("timer");
                     clearInterval(interval);
                 }
             }, 1000);
-        });
-
-        repeatBtn.addEventListener("click", function () {
-            clearInterval(interval);
-            time = 0;
-            timer.textContent = formatTime(time);
         });

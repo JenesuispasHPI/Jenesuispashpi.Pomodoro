@@ -16,7 +16,7 @@ const timeElement = document.getElementById('time');
 
         function startTimer() {
             startBtn.disabled = true;
-            repeatBtn.disabled = true;
+            repeatBtn.disabled = false;
             messageElement.textContent = '';
             const interval = setInterval(() => {
                 seconds++;
@@ -58,5 +58,5 @@ const timeElement = document.getElementById('time');
             seconds = 0;
             updateTimer();
             messageElement.textContent = '';
-            startBtn.disabled = false;
+            startBtn.disabled = true;
         });

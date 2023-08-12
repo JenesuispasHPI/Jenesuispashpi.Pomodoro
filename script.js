@@ -36,7 +36,7 @@ const timeElement = document.getElementById('time');
             }, 1000);
         }
 
-        function getRewardMessage(minutes) {
+        function showMessage(minutes) {
             switch (minutes) {
                 case 1:
                     return 'De toute semence naît une racine !';

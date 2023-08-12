@@ -1,4 +1,4 @@
-   const timer = document.getElementById("timer");
+const timer = document.getElementById("timer");
         const startBtn = document.getElementById("startBtn");
         const repeatBtn = document.getElementById("repeatBtn");
         let time = 0;

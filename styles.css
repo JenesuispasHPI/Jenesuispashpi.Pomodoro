@@ -43,6 +43,7 @@ button {
 
 button:hover {
     background-color: #005148;
+    font-style: italic;
     transform: scale(2.05);
 }
 

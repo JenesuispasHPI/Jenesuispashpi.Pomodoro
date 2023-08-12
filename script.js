@@ -35,13 +35,13 @@ function startTimer() {
 function getRewardMessage(minutes) {
     switch (minutes) {
         case 5:
-            return 'Vous pouvez y arriver';
+            return 'Vous pouvez y arriver !';
         case 10:
-            return 'C’est en plantant une graine qu’on sème le succès';
+            return 'C’est en plantant une graine qu’on sème le succès !';
         case 15:
             return 'Vous gérez la fougère !';
         case 20:
-            return 'Vous n’en pouvez plus, mais le roseau ne rompt pas face à la tempête';
+            return 'Vous n’en pouvez plus, mais le roseau ne rompt pas face à la tempête !';
     }
 }
 

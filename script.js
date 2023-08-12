@@ -23,7 +23,7 @@ const timeElement = document.getElementById('time');
                 if (seconds === 60) {
                     seconds = 0;
                     minutes++;
-                    if (minutes % 1 === 0) {
+                    if (minutes % 5 === 0) {
                         showMessage(getRewardMessage(minutes));
                     }
                 }
@@ -38,10 +38,8 @@ const timeElement = document.getElementById('time');
 
         function getRewardMessage(minutes) {
             switch (minutes) {
-                case 1:
-                    return 'De toute semence naît une racine !';
                 case 5:
-                    return 'Vous pouvez y arriver !';
+                    return 'De toute semence naît une racine !';
                 case 7:
                     return 'On dirait bien que ça pousse !';
                 case 10:

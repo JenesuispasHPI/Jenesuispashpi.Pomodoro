@@ -9,6 +9,12 @@ body {
             color: #00695C;
         }
 
+       img {
+                   
+            width: 150px; 
+            height: 150px;
+       }
+
         #time {
             font-size: 44px;
             margin-top: 10px;

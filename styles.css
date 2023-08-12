@@ -42,8 +42,9 @@ button {
 
 button:hover {
     background-color: #005148;
-    transform: scale(1.05); /* Ajustez la valeur pour contrôler le niveau de grossissement */
-    transition: transform 0.4s, background-color 0.3s; /* Ajoutez une transition pour une animation fluide */
+    transform: translateY(-3px); /* Déplace légèrement vers le haut au survol */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+        transition: transform 0.3s, background-color 0.3s; /* Ajoutez une transition pour une animation fluide */
 }
 
 

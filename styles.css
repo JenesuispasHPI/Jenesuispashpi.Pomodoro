@@ -1,4 +1,5 @@
 body {
+            font-size: 24px;    
             font-family: Luciole, sans-serif;
             text-align: center;
         }
@@ -9,7 +10,7 @@ body {
         }
 
         #time {
-            font-size: 24px;
+            font-size: 44px;
             margin-top: 10px;
         }
 

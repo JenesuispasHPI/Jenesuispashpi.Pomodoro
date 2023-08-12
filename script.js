@@ -1,6 +1,6 @@
    const timer = document.getElementById("timer");
-        const startBtn = document.getElementById("startButton");
-        const repeatBtn = document.getElementById("repeatButton");
+        const startBtn = document.getElementById("startBtn");
+        const repeatBtn = document.getElementById("repeatBtn");
         let time = 0;
         let interval;
 

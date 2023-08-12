@@ -43,7 +43,7 @@ button {
 
 button:hover {
     background-color: #005148;
-    transform: scale(0.7); /* Ajustez la valeur pour contrôler le niveau de grossissement */
+    transform: scale(1.1); /* Ajustez la valeur pour contrôler le niveau de grossissement */
     transition: transform 0.3s, background-color 0.3s; /* Ajoutez une transition pour une animation fluide */
 }
 

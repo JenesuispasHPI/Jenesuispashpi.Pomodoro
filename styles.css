@@ -100,3 +100,15 @@ label, input {
 #resultat {
     margin-top: 20px;
     font-style: italic;}
+
+#roman {
+        /* Votre style personnalisé ici */
+        display: block;
+        text-align: justify;
+        margin: 0 auto; 
+        background-color: #E0F2F1;
+        padding: 20px;
+        border: 1px solid #005148;
+        font-size: 18px;
+        color: black;
+    }

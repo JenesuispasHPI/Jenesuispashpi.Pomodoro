@@ -5,6 +5,11 @@ body {
     background-color: #FFF;
 }
 
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: white; /* Couleur blanche */
+}
+
 h1 {
     font-size: 32px;
     color: #00695C;
@@ -40,6 +45,18 @@ button {
     margin: 10px;
 }
 
+.AppBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00695C;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
 button:hover {
     background-color: #005148;
     transform: translateY(-3px); /* Déplace légèrement vers le haut au survol */
@@ -52,3 +69,23 @@ button:disabled {
     background-color: #B2DFDB;
     cursor: not-allowed;
 }
+
+
+/* Balise alt*/
+
+form {
+    margin: 20px;
+}
+
+label, input {
+    display: block;
+    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    width: 80%; /* Ajustez la valeur pour définir la largeur souhaitée */
+    padding: 10px; /* Ajoutez un espace de remplissage pour améliorer l'apparence */
+}
+
+#resultat {
+    margin-top: 20px;
+    font-style: italic;}

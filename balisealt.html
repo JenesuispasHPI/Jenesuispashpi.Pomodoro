@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Liste des applications web de Je ne suis pas HPI</title>
+</head>
+<body>
+    <button id="AppBtn"><a href="chronopomodoro.html">Pomodoro</a></button>
+    <button id="AppBtn"><a href="balisealt.html">Ajout de balise alt dans vos images</a></button>
+    <button id="AppBtn">Compteur de mots</button>
+    <button id="AppBtn">Vérificateur de mots SEO</button>
+
+    
+    <title>Générateur de Balises Meta ALT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Générateur de Balises Meta ALT</h1>
+    <form id="form">
+        <label for="titre">Entrez la balise img concernée :</label><input type="text" id="titre" required>
+        <!-- Autres champs du formulaire... -->
+        <button id="generer">Générer Balises ALT</button>
+    </form>
+
+    <div id="resultat"></div>
+
+
+    <form id="form">
+        <!-- Ajoutez vos champs d'entrée ici (titre, description, auteur, date, mots-clés, etc.) -->
+        <!-- Pour chaque image, ajoutez un champ pour alt-0, alt-1, etc. -->
+        <label for="alt-0">Alt pour image 1 :</label>
+        <input type="text" id="alt-0" name="alt-0">
+        
+        <label for="alt-1">Alt pour image 2 :</label>
+        <input type="text" id="alt-1" name="alt-1">
+        
+        <!-- Ajoutez autant de champs alt que nécessaire -->
+        
+        <button id="generer" type="button">Générer</button>
+    </form>
+    
+    
+    <div id="resultat"></div>
+    <script src="script_balisealt.js"></script>
+</body>
+</html>
